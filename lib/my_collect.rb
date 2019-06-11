@@ -7,12 +7,12 @@ def my_collect(array)
   array
 end
 
-["Tim Jones", "Tom Smith", "Jim Campagno"]
+array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 my_collect(array) do |name|
   name.split(" ").first
 end
 
-['ruby', 'javascript', 'python', 'objective-c']
+languages = ['ruby', 'javascript', 'python', 'objective-c']
 my_collect(languages) do |language|
   puts language.upcase
 end
