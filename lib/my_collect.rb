@@ -11,11 +11,11 @@ end
 names = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 
 my_collect(names) do |name|
-  name.split(" ").first
+  puts name.split(" ").first
 end
 
 languages = ['ruby', 'javascript', 'python', 'objective-c']
 
 my_collect(languages) do |language|
-  language.upcase
+  puts language.upcase
 end
