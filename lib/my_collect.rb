@@ -5,7 +5,7 @@ def my_collect(new_collection)
     new_collection << yield(array[i])
     i = 1 + i
   end
-  array
+  new_collection
 end
 
 names = ["Tim Jones", "Tom Smith", "Jim Campagno"]
