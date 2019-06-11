@@ -12,7 +12,7 @@ my_collect(array) do |name|
   name.split(" ").first
 end
 
-collection = ['ruby', 'javascript', 'python', 'objective-c']
-my_collect(collection) do |language|
+languages = ['ruby', 'javascript', 'python', 'objective-c']
+my_collect(languages) do |language|
   language.upcase
 end
